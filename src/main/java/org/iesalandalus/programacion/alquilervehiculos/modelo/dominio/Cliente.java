@@ -102,7 +102,6 @@ public class Cliente {
 
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
 		return String.format("%s - %s (%s)", nombre, dni, telefono);
 	}
 }

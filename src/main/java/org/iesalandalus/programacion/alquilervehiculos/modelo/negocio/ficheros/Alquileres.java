@@ -1,4 +1,4 @@
-package org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.memoria;
+package org.iesalandalus.programacion.alquilervehiculos.modelo.negocio.ficheros;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -51,10 +51,6 @@ public class Alquileres implements IAlquileres {
 		return coleccionTurismo;
 	}
 
-	@Override
-	public int getCantidad() {
-		return coleccionAlquileres.size();
-	}
 
 	@Override
 	public void insertar(Alquiler alquiler) throws OperationNotSupportedException {
